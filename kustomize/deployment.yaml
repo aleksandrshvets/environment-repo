@@ -17,7 +17,7 @@ spec:
       - name: regcred-github
       containers:
       - name: alexcontainerapp
-        image: ghcr.io/aleksandrshvets/alexcontainerapp:0ea52225
+        image: ghcr.io/aleksandrshvets/alexcontainerapp:e8e656ac
         imagePullPolicy: Always
         ports:
         - name: http
@@ -25,7 +25,7 @@ spec:
           protocol: TCP
         resources:
           limits:
-            cpu: 1000m
+            cpu: 2000m
             memory: 512Mi
           requests:
             cpu: 100m
