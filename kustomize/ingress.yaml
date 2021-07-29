@@ -4,7 +4,7 @@ metadata:
   name: alex-app-ingress
 spec:
   rules:
-  - host: "flux.aks"
+  - host: "argo.aks"
     http:
       paths:
       - pathType: Prefix
