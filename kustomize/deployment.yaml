@@ -17,7 +17,7 @@ spec:
       - name: regcred-github
       containers:
       - name: alexcontainerapp
-        image: ghcr.io/aleksandrshvets/alexcontainerapp:c71b9bac
+        image: ghcr.io/aleksandrshvets/alexcontainerapp:f23ed322
         imagePullPolicy: Always
         ports:
         - name: http
